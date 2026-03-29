@@ -15,9 +15,9 @@ def setting(*names, default=None):
             return getattr(_this, n)
     return default
 
-clientId = setting("clientId", default="63721")
-clientSecret = setting("clientSecret", default="2f71c2ccb4fedde4a025c46901ed8f2b")
-username = setting("username", default="pugsbyp")
+clientId = setting("clientId", default="")
+clientSecret = setting("clientSecret", default="")
+username = setting("username", default="")
 
 baseUrl = "https://www.deviantart.com/api/v1/oauth2/"
 outputDir = "images/deviantart/"
