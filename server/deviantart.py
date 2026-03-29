@@ -86,7 +86,7 @@ def downloadViaGalleryDl(pageUrl, devId):
 
 
 def alreadyDownloaded(devId):
-    flat = glob.glob(os.path.join(outputDir, f"{devId}_*.*"))
+    flat = glob.glob(os.path.join(outputDir, f"{devId}*.*"))
     nested = glob.glob(os.path.join(outputDir, devId, f"{devId}_*.*"))
     return any(not f.endswith(".json") for f in flat + nested)
 
