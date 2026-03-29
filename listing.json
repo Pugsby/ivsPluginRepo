@@ -24,6 +24,16 @@
             "description": "Scrapes your favorites from DeviantArt and adds them and their metadata to your library.",
             "author": "Pugsby",
             "image": "thumbnails/deviantart.png"
+        },
+        {
+            "file": "cleanUp.py",
+            "defaultConfig": {
+                "interval": 3600
+            },
+            "name": "Clean Up",
+            "description": "Cleans up your image library by removing duplicate images. [ Installed by default ]",
+            "author": "Pugsby",
+            "image": "thumbnails/cleanUp.png"
         }
     ]
 }   
