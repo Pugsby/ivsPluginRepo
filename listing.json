@@ -1,0 +1,29 @@
+{
+    "serverPlugins": [
+        {
+            "file": "e621.py",
+            "defaultConfig": {
+                "username": "",
+                "apiKey": "",
+                "interval": 3600
+            },
+            "name": "e621 Scraper",
+            "description": "Scrapes your favorites from e621.net and adds them and their metadata to your library.",
+            "author": "Pugsby",
+            "image": "thumbnails/e621.png"
+        },
+        {
+            "file": "deviantart.py",
+            "defaultConfig": {
+                "username": "",
+                "clientId":"",
+                "clientSecret":"",
+                "interval": 3600
+            },
+            "name": "DeviantArt Scraper",
+            "description": "Scrapes your favorites from DeviantArt and adds them and their metadata to your library.",
+            "author": "Pugsby",
+            "image": "thumbnails/deviantart.png"
+        }
+    ]
+}   
